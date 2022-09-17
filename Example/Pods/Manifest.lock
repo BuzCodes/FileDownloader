@@ -1,0 +1,16 @@
+PODS:
+  - FileDownloader (0.1.0)
+
+DEPENDENCIES:
+  - FileDownloader (from `../`)
+
+EXTERNAL SOURCES:
+  FileDownloader:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FileDownloader: 423b8ca2d9255dac24cecab7f069daa19795a375
+
+PODFILE CHECKSUM: 866cbe4b1a857b3d538d330fb6f79dd6dc3d7156
+
+COCOAPODS: 1.11.3

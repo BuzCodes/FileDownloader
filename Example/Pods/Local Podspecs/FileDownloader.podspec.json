@@ -1,0 +1,22 @@
+{
+  "name": "FileDownloader",
+  "version": "0.1.0",
+  "summary": "A short description of FileDownloader.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Alessandro Loi/FileDownloader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alessandro Loi": "alessandro.loi@keyless.io"
+  },
+  "source": {
+    "git": "https://github.com/Alessandro Loi/FileDownloader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FileDownloader/Classes/**/*"
+}

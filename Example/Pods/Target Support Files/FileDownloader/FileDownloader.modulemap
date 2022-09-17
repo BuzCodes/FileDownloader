@@ -1,0 +1,6 @@
+framework module FileDownloader {
+  umbrella header "FileDownloader-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,34 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = 'FileDownloader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FileDownloader.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'A simple yet highly customizable Downloader with File Handling power!'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A simple yet highly customizable Downloader with File Handling power!
                        DESC
 
-  s.homepage         = 'https://github.com/Alessandro Loi/FileDownloader'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/HolyBuz/FileDownloader'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Alessandro Loi' => 'alessandro.loi@keyless.io' }
   s.source           = { :git => 'https://github.com/Alessandro Loi/FileDownloader.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '10.0'
-
-  s.source_files = 'FileDownloader/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FileDownloader' => ['FileDownloader/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
+  s.source_files = 'Classes/**/*.{swift, h, m}'
+  s.frameworks = 'UIKit', 'Combine', 'Foundation'
 end
