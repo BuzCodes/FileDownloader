@@ -63,6 +63,7 @@
 		708DF46B1A361BA4E5B096FD70BAC7CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		726E466950090E40AA2C15DFB94C5C9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7998FE3A28D5553600E2E63C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		79FB3CE828D54EB800004856 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		79FB3CE928D54EB800004856 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 		79FB3CEA28D54EB800004856 /* FileRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileRepository.swift; sourceTree = "<group>"; };
@@ -195,14 +196,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		79FB3CE628D54EB800004856 /* Classes */ = {
+		79FB3CE628D54EB800004856 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				79FB3CE728D54EB800004856 /* Download Manager */,
 				79FB3CEB28D54EB800004856 /* Download Task */,
 				79FB3CEF28D54EB800004856 /* Public */,
 			);
-			path = Classes;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		79FB3CE728D54EB800004856 /* Download Manager */ = {
@@ -240,7 +241,7 @@
 		A6AFC716C0424F56FA3DD851C8FB6633 /* FileDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				79FB3CE628D54EB800004856 /* Classes */,
+				79FB3CE628D54EB800004856 /* Sources */,
 				B79693951015AB5B1C3C1D74C5FAD22E /* Pod */,
 				31CFD77B4989AECFF86E8F2D3D9A8D95 /* Support Files */,
 			);
@@ -252,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				4794AACDAF88952B38C477A462B7ABDB /* FileDownloader.podspec */,
+				7998FE3A28D5553600E2E63C /* Package.swift */,
 				726E466950090E40AA2C15DFB94C5C9C /* LICENSE */,
 				708DF46B1A361BA4E5B096FD70BAC7CC /* README.md */,
 			);
