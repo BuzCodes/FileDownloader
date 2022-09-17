@@ -12,13 +12,14 @@ Pod::Spec.new do |s|
   s.summary          = 'A simple yet highly customizable Downloader with File Handling power!'
   s.description      = <<-DESC
   A simple yet highly customizable Downloader with File Handling power!
+  You can use both closures and Combine to easily start a download.
                        DESC
 
   s.homepage         = 'https://github.com/HolyBuz/FileDownloader'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Alessandro Loi' => 'alessandro.loi@keyless.io' }
-  s.source           = { :git => 'https://github.com/Alessandro Loi/FileDownloader.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '10.0'
+  s.author           = { 'Alessandro Loi' => 'holybuz@gmail.com' }
+  s.source           = { :git => 'https://github.com/HolyBuz/FileDownloader.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
   s.source_files = 'Classes/**/*.{swift, h, m}'
   s.frameworks = 'UIKit', 'Combine', 'Foundation'
