@@ -39,7 +39,6 @@ To install it, simply add the following line to your Podfile:
 pod 'FileDownloader'
 ```
 
-
 ### Using Swift Package Manager:
 
 1. Add the following to your Package.swift file:
@@ -112,6 +111,10 @@ FileHandler.cancel(file: file)
 ```Swift
 let localFileURL = FileHandler.get(file: file)
 ```
+## Additional Information
+- Caching: Files are cached by default using the downloadConfiguration parameter.
+- Error handling: Handle errors appropriately using the completion handlers or Combine's sink operator.
+
 ## Author
 
 HolyBuz, holybuz@gmail.com
