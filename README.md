@@ -13,13 +13,6 @@
 #### 🔨 Technologies: Swift, Combine, No Third Party libraries.
 ####  🚀Platform: 📱iOS & 🖥️MacOS
 
-## Includes
-
-- [x] Neuromorphic design on reusable AddButton.
-- [x] Custom modifiers to speed up your layout creation.
-- [x] Handling reactively the keyboard
-- [x] Modal presentation to add new tasks
-
 ## Requirements
 
 - iOS 13.0+
